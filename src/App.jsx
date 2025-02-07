@@ -5,7 +5,7 @@ import AddMenuItem from "./components/AddMenuItem";
 import ViewMenu from "./components/ViewMenu";
 import UpdateMenuItem from "./components/UpdateMenuItem";
 import Login from "./components/Login";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/NavBar";
 
 const PrivateRoute = ({ element }) => {
     const isAuthenticated = localStorage.getItem("token");
